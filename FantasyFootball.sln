@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootball.Custom.Impl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootball.WebUI.Admin", "FantasyFootball.WebUI.Admin\FantasyFootball.WebUI.Admin.csproj", "{8695AF48-D755-4B3F-9691-F10C461A3D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootball.Common.Dto", "FantasyFootball.Common.Dto\FantasyFootball.Common.Dto.csproj", "{0506A299-3A1F-469B-97F8-018AA084AE7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootball.Common.Wrappers", "FantasyFootball.Common.Dto\FantasyFootball.Common.Wrappers.csproj", "{0506A299-3A1F-469B-97F8-018AA084AE7C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4860D884-8367-44EC-8310-83FB1DC2B06B}"
 EndProject

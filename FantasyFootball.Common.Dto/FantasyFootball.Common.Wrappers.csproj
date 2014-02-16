@@ -39,7 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionWrapper.cs" />
+    <Compile Include="LeagueWrapper.cs" />
+    <Compile Include="MatchsActionWrapper.cs" />
+    <Compile Include="MatchWrapper.cs" />
+    <Compile Include="PlayerWrapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleWrapper.cs" />
+    <Compile Include="TeamWrapper.cs" />
+    <Compile Include="UserInRoleWrapper.cs" />
+    <Compile Include="UsersTeamWrapper.cs" />
+    <Compile Include="UserWrapper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
