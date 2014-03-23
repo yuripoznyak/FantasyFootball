@@ -16,6 +16,7 @@ namespace FantasyFootball.Common.SqlContext
     {
         public UsersTeam()
         {
+            this.PlayerInTeam = new HashSet<PlayerInTeam>();
             this.User = new HashSet<User>();
         }
     
@@ -24,6 +25,7 @@ namespace FantasyFootball.Common.SqlContext
         public Nullable<int> LeagueId { get; set; }
     
         public virtual League League { get; set; }
+        public virtual ICollection<PlayerInTeam> PlayerInTeam { get; set; }
         public virtual ICollection<User> User { get; set; }
     }
 }

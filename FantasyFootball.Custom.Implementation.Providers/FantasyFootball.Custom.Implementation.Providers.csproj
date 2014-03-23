@@ -33,7 +33,10 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,7 +57,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FantasyFootball.Common.Dto\FantasyFootball.Common.Wrappers.csproj">
+      <Project>{0506a299-3a1f-469b-97f8-018aa084ae7c}</Project>
+      <Name>FantasyFootball.Common.Wrappers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FantasyFootball.Common.Mappers\FantasyFootball.Common.Mappers.csproj">
+      <Project>{3272fb3d-bd09-4815-8ebb-d6602dd10ac4}</Project>
+      <Name>FantasyFootball.Common.Mappers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FantasyFootball.Common.Services\FantasyFootball.Common.Services.csproj">
+      <Project>{a48a2bfb-bcd7-4f33-9322-ebc1775533ce}</Project>
+      <Name>FantasyFootball.Common.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

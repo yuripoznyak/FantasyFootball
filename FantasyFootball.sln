@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4860D884
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootball.Tests", "FantasyFootball.Tests\FantasyFootball.Tests.csproj", "{66080841-E240-4D4D-AE2A-8A07A26B1DB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyFootball.Common.Services", "FantasyFootball.Common.Services\FantasyFootball.Common.Services.csproj", "{A48A2BFB-BCD7-4F33-9322-EBC1775533CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{66080841-E240-4D4D-AE2A-8A07A26B1DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66080841-E240-4D4D-AE2A-8A07A26B1DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66080841-E240-4D4D-AE2A-8A07A26B1DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48A2BFB-BCD7-4F33-9322-EBC1775533CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48A2BFB-BCD7-4F33-9322-EBC1775533CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48A2BFB-BCD7-4F33-9322-EBC1775533CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48A2BFB-BCD7-4F33-9322-EBC1775533CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

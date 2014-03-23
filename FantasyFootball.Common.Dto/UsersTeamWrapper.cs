@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using FantasyFootball.Common.Dto;
 
 namespace FantasyFootball.Common.Wrappers
 {

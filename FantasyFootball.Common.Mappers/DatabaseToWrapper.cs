@@ -1,5 +1,4 @@
-﻿using FantasyFootball.Common.Dto;
-using FantasyFootball.Common.SqlContext;
+﻿using FantasyFootball.Common.SqlContext;
 using AutoMapper;
 using FantasyFootball.Common.Wrappers;
 

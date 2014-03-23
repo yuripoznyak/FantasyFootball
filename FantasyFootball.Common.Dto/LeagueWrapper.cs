@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using FantasyFootball.Common.Wrappers;
 
-namespace FantasyFootball.Common.Dto
+namespace FantasyFootball.Common.Wrappers
 {
     public sealed class LeagueWrapper
     {

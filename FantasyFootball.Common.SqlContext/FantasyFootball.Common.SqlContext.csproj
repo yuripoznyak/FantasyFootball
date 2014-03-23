@@ -64,81 +64,75 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Action.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="FantasyFootball.Context.cs">
+    <Compile Include="FantasyModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FantasyFootball.Context.tt</DependentUpon>
+      <DependentUpon>FantasyModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="FantasyFootball.cs">
+    <Compile Include="FantasyModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="FantasyFootball.Designer.cs">
+    <Compile Include="FantasyModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FantasyFootball.edmx</DependentUpon>
+      <DependentUpon>FantasyModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="League.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Match.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="MatchsAction.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Player.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerInTeam.cs">
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Team.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="User.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UserInRole.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UsersTeam.cs">
-      <DependentUpon>FantasyFootball.tt</DependentUpon>
+      <DependentUpon>FantasyModel.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="FantasyFootball.edmx">
+    <EntityDeploy Include="FantasyModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FantasyFootball.Designer.cs</LastGenOutput>
+      <LastGenOutput>FantasyModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="FantasyFootball.Context.tt">
+    <None Include="FantasyModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FantasyFootball.edmx</DependentUpon>
-      <LastGenOutput>FantasyFootball.Context.cs</LastGenOutput>
+      <DependentUpon>FantasyModel.edmx</DependentUpon>
+      <LastGenOutput>FantasyModel.Context.cs</LastGenOutput>
     </None>
-    <None Include="FantasyFootball.edmx.diagram">
-      <DependentUpon>FantasyFootball.edmx</DependentUpon>
+    <None Include="FantasyModel.edmx.diagram">
+      <DependentUpon>FantasyModel.edmx</DependentUpon>
     </None>
-    <None Include="FantasyFootball.tt">
+    <None Include="FantasyModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FantasyFootball.edmx</DependentUpon>
-      <LastGenOutput>FantasyFootball.cs</LastGenOutput>
+      <DependentUpon>FantasyModel.edmx</DependentUpon>
+      <LastGenOutput>FantasyModel.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Fantasy.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fantasy_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Fantasy.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -160,6 +154,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,6 +1,6 @@
 ﻿using FantasyFootball.Common.Wrappers;
 
-namespace FantasyFootball.Common.Dto
+namespace FantasyFootball.Common.Wrappers
 {
     public class UserInRoleWrapper
     {
